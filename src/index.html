@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="font-Poppins">
+  <!--Header-->
+  <header>
+    <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+        <div class="py-1"><img src="Imgs/logo-bookmark.svg" alt=""></div>
+        <ul class="hidden sm:flex flex-1 items-center justify-end gap-12 text-bookmark-blue uppercase text-xs">
+            <li class="cursor-pointer">Features</li>
+            <li class="cursor-pointer">Pricing</li>
+            <li class="cursor-pointer">Contact</li>
+            <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Log In</button>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <!-- hero-->
+  <section class="relative">
+    <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+        <!-- content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h2 class="border-bookmark-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+                A simple bookmark-manager
+            </h2>
+            <p class="text-center text-bookmark-grey text-lg lg:text-left mb-6">Our aim is to provide you with the easy access and of your favourite website.You can manage and access your bookmarks across different devices.</p>
+            <div class="flex flex-wrap justify-center gap-6">
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Get it on Chrome</button>
+                <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">Get it on Firefox</button>
+            </div>
+        </div>
+        <!-- Image -->
+        <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+            <img src="Imgs/hero-bg.png" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+        </div>
+    </div>
+    <!-- rounded-shape -->
+    <div class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28"></div>
+  </section>
+
+
+  <!-- Features -->
+  <section class="relative bg-bookmark-white py-20 mt-20 lg:60">
+    <!-- Heading -->
+    <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+        <!-- Image-->
+        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="Imgs/illustration-features-tab-1.png">
+        </div>
+        <!-- content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, ab labore, nihil porro quia exercitationem quas alias iure quo nam nemo quod. Voluptate optio neque cupiditate quaerat autem dignissimos sequi!</p>
+            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+                Get it On Chrome!!
+            </button>
+        </div>
+    </div>
+     <!-- rounded-shape -->
+     <div class="hidden md:block overflow-hidden bg-bookmark-purple rounded-r-full absolute h-80 w-2/4 top-32 left-0 lg:-bottom-28"></div>
+  </section>
+</body>
+</html>
